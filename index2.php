@@ -28,7 +28,7 @@ Description: Grabs JSON data from BitMinter and formats the relevant data into a
 	}
 	else
 	{
-		$url = "https://bitminter.com/api/users/BitGames?key=RGEZJBZS4DLQW1ULXT4IICWE1Y3IKNL0";
+		$url = "https://bitminter.com/api/users/BitGames?key= /*key removed from this copy (due to public repo)*/";
         $crl = curl_init();
         $timeout = 5;
         curl_setopt ($crl, CURLOPT_URL,$url);
